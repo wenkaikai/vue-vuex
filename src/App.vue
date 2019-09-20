@@ -5,10 +5,11 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/vuex.vue'
 // import HelloWorld from './components/nameSpace.vue'
 // import HelloWorld from './components/action.vue'
-import HelloWorld from './components/module.vue'
+// import HelloWorld from './components/module.vue'
 export default {
   name: 'app',
   components: {

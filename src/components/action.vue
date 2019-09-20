@@ -29,7 +29,8 @@ const store = new Vuex.Store({
     },
     actions:{
       increment1(context){
-        console.log(context)
+        console.log(context)//这个context 对象 具有和store 实例具有相同方法和属性 但是他并不等同于store 当我们在之后介绍到 
+        //Modules 时你就知道 context 对象为什么不是 store 实例本身了
         context.commit('increment')
       }
     }
