@@ -10,6 +10,9 @@ import HelloWorld from './components/HelloWorld.vue'
 // import HelloWorld from './components/nameSpace.vue'
 // import HelloWorld from './components/action.vue'
 // import HelloWorld from './components/module.vue'
+// import HelloWorld from './components/vuexCreate.vue'
+// import HelloWorld from './components/moduleAction.vue'
+// import HelloWorld from './vue.observable/observable.vue'
 export default {
   name: 'app',
   components: {

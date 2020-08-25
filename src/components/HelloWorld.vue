@@ -44,6 +44,7 @@ export default {
   },
   methods:{
     increment(){
+      console.log(store._mutations)
       store.dispatch({
         type:"incrementAction",
         count:10

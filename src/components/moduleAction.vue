@@ -29,6 +29,7 @@ const moduleA = {
           这个根节是所有模块的对象
         */
         //console.log(rootState)// context.rootState 根节点状态则为 context.rootState
+        // console.log("moduleA触发了") 如果两个模块都有相同的action 方法那么这两个方法都会被dispatch
         commit("increment") // 这个时候可以触发mutations
       }
     },
@@ -50,7 +51,7 @@ const moduleB = {
       test({state,commit,rootState}){
         // 如果不同的模块有相同的actions方法 这样的话这两个模块的方法都会被触发
         //这样使得多个模块能够对同一 mutation 或 action 作出响应。
-
+        console.log("moduleB触发了")
         commit("increment") // 这个时候可以触发mutations
       }
     },

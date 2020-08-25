@@ -60,7 +60,7 @@ export default {
               num:123
              })
 
-            console.log(store.state)
+            //console.log(store.state)
         }
     }
 }
